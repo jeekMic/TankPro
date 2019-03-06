@@ -2,127 +2,129 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac31241-707d-4cea-9b6f-daf93425c681" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/App.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/Config.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/GameWindow.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/enums/Direction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Grass.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Steel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/View.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Wall.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Water.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/font/zt.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_26.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_28.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_30.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_31.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/blast_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/bomb.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/born_1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/born_2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/born_3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/born_4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/bullet_d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/bullet_l.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/bullet_r.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/bullet_u.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_1_d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_1_l.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_1_r.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_1_u.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_2_d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_2_l.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_2_r.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_2_u.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_3_d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_3_l.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_3_r.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_3_u.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_4_d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_4_l.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_4_r.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_4_u.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_5_d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_5_l.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_5_r.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_5_u.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_6_d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_6_l.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_6_r.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/enemy_6_u.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/gamel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/gameover.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/grass.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/select.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/select_tank.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/shot_bottom.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/shot_left.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/shot_right.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/shot_top.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/star.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/steel.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/steel_small.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/symbol.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tank_2_d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tank_2_l.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tank_2_r.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tank_2_u.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tank_d.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tank_l.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tank_r.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/tank_u.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/timer.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/wall.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/wall_small.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/water.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/map/1.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/snd/add.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/snd/bg.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/snd/blast.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/snd/fire.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/snd/hit.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/snd/start.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/buiness/Blockable.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/buiness/Movable.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/tanke_main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/tanke_main.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/MyWindow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/MyWindowKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MyWindow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MyWindow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/font/zt.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/blast_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/bomb.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/born_1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/born_2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/born_3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/born_4.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/bullet_d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/bullet_l.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/bullet_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/bullet_u.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_1_d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_1_l.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_1_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_1_u.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_2_d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_2_l.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_2_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_2_u.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_3_d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_3_l.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_3_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_3_u.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_4_d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_4_l.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_4_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_4_u.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_5_d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_5_l.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_5_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_5_u.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_6_d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_6_l.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_6_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/enemy_6_u.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/gamel.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/gameover.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/grass.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/select.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/select_tank.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/shot_bottom.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/shot_left.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/shot_right.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/shot_top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/star.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/steel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/steel_small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/symbol.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/tank_2_d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/tank_2_l.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/tank_2_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/tank_2_u.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/tank_d.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/tank_l.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/tank_r.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/tank_u.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/timer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/wall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/wall_small.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/img/water.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/map/1.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/AppKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/AppKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/GameWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/GameWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/enums/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/enums/Direction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Grass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Grass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Steel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Steel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Tank$WhenMappings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Tank$WhenMappings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Tank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Tank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Wall.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Wall.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Water.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/org/rushi/game/model/Water.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/snd/add.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/snd/bg.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/snd/blast.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/snd/fire.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/snd/hit.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/snd/start.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/GameWindow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/GameWindow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Wall.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Wall.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,93 +153,69 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="GameWindow.kt" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/GameWindow.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="50" selection-start-line="50" selection-start-column="2" selection-end-line="56" selection-end-column="11" />
-              <folding>
-                <element signature="e#24#229#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-337">
+              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Wall.kt" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Wall.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="156">
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
               <folding>
-                <element signature="e#30#102#0" expanded="true" />
+                <element signature="e#30#142#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Grass.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Grass.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#30#102#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Steel.kt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Steel.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Water.kt" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Water.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="290">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.kt" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/View.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="123">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Config.kt" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/Config.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            <state relative-caret-position="87">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.map" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/map/1.map">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tank.kt" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="58">
+              <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
               <folding>
                 <element signature="e#30#140#0" expanded="true" />
               </folding>
@@ -245,10 +223,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Direction.kt" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/buiness/Movable.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+              <folding>
+                <element signature="e#32#102#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/buiness/Blockable.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/enums/Direction.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
+            <state relative-caret-position="87">
               <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
@@ -265,358 +264,18 @@
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>640</find>
+      <find>----------</find>
+    </findStrings>
+    <dirStrings>
+      <dir>G:\my_project\TankPro</dir>
+    </dirStrings>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="myGradleHomes">
-      <map>
-        <entry key="$PROJECT_DIR$" value="C:\Users\Administrator\.gradle\wrapper\dists\gradle-4.4-bin\bgaq7vklkazwgxox0hdadxbvi\gradle-4.4" />
-      </map>
-    </option>
-    <option name="myGradleVersions">
-      <map>
-        <entry key="$PROJECT_DIR$" value="4.4" />
-      </map>
-    </option>
-    <option name="availableProjects">
-      <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="tanke" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
-          <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="tanke" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="availableTasks">
-      <map>
-        <entry key="$PROJECT_DIR$">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'tanke'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="inspectClassesForKotlinIC" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'tanke'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'tanke'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'tanke'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Gradle wrapper files." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="wrapper" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="mainClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'tanke'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'tanke'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Initializes a new Gradle build." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="init" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the compilation 'test' (target  (jvm))." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'tanke'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'tanke'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles the compilation 'main' (target  (jvm))." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="compileKotlin" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'tanke'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$" value="7759258215601" />
-        <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3044589433" />
-        <entry key="$PROJECT_DIR$/gradle.properties" value="3650535818" />
-        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1741342742" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="1273908069" />
-      </map>
-    </option>
-    <option name="projectBuildClasspath">
-      <map>
-        <entry key="$PROJECT_DIR$">
-          <value>
-            <ExternalProjectBuildClasspathPojo>
-              <option name="modulesBuildClasspath">
-                <map>
-                  <entry key="$PROJECT_DIR$">
-                    <value>
-                      <ExternalModuleBuildClasspathPojo>
-                        <option name="entries">
-                          <list>
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.3.21/3c999f173a5a5eaf4e1bccea848eff32c7272898/kotlin-gradle-plugin-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin/1.3.21/b6a5758c55aa1c0189b136fb888d24bfec5978cf/kotlin-gradle-plugin-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.3.21/d6b68351334b321aed15db2b75969b7b922c7c6e/kotlin-gradle-plugin-api-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.3.21/9eadd21553b39ec3bd9549ce702064de4ab49ecd/kotlin-gradle-plugin-api-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-model/1.3.21/4cbe30c37ab84f84e4e5a9e65c761e70f74ceea6/kotlin-gradle-plugin-model-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-model/1.3.21/4a5711a73924e753730e2afcd610af6ff983efa5/kotlin-gradle-plugin-model-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/b8815e48fb45e94821287365bd9ce8623f459ac7/kotlin-stdlib-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-native-utils/1.3.21/2240e1cf9017facb0bfaed07367b119a20a5964b/kotlin-native-utils-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-native-utils/1.3.21/81929ae402824cfad58663ba500e0aaa0d327b8e/kotlin-native-utils-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.21/2aa36f56168580f859784ce6c5a2aa87572cc643/kotlin-compiler-embeddable-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.3.21/677cc9553b8964c895abc76da9b6a0faea8f671d/kotlin-compiler-embeddable-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.3.21/4ee2ad95b0e2c0a5616c445f5a01f46ac2d26ee0/kotlin-annotation-processing-gradle-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-annotation-processing-gradle/1.3.21/225aacd70ddfe71c72796bb317b3f12254c1ff3a/kotlin-annotation-processing-gradle-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.21/13b53735a9e9414622ac155feaaaf7aee6b1c91e/kotlin-android-extensions-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.21/311c0d1cbb0a194e8712edaef7b92a8f0919ca26/kotlin-android-extensions-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.3.21/11cd62e09403e421516f80272544b0952e10c23e/kotlin-compiler-runner-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-runner/1.3.21/2dd0fb04b6e1440e8bcf822f693630ffa1216615/kotlin-compiler-runner-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable/1.3.21/229f636b341b7d7f9ca73f754b3bb8ee1b0e7833/kotlin-scripting-compiler-embeddable-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-compiler-embeddable/1.3.21/510f640ddab3074a890450f870e65630cf5e0055/kotlin-scripting-compiler-embeddable-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.21/a30e058efd57c50515227c894abed1db20edb2b5/kotlin-reflect-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.21/d0d5ff2ac2ebd8a42697af41e20fc225a23c5d3b/kotlin-reflect-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.21/3d39f81e59ff74948f4dd74fb92f21f4c5f2ca6f/kotlin-script-runtime-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.3.21/29363d474ee6fda354900636320a177c7286def9/kotlin-script-runtime-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/fff84a7f9b3215e7ef684672d0adf2853e20040a/trove4j-1.0.20181211-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.3.21/9e68bcb1a786b3ba9918e331723b5381ee8ec477/kotlin-build-common-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-build-common/1.3.21/9fafa0a2bec9a6d530afbff04e894bc85ebfed01/kotlin-build-common-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.3.21/11b1732e9562e6ef628e2c435e04b8e4aaf5076/kotlin-daemon-client-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-client/1.3.21/b5282a8f1152d443f2cdc6ea0bbe895ee30b1239/kotlin-daemon-client-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/224a3bcfa1c088dd5d7c4a3958a68427b44c65dc/kotlin-stdlib-common-1.3.21-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/5991ca87ef1fb5544943d9abc5a9a37583fabe03/annotations-13.0-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
-                          </list>
-                        </option>
-                        <option name="path" value="$PROJECT_DIR$" />
-                      </ExternalModuleBuildClasspathPojo>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-              <option name="name" value="tanke" />
-              <option name="projectBuildClasspath">
-                <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/ant-1.9.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/ant-launcher-1.9.9.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-base-services-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-base-services-groovy-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-build-cache-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-build-option-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-cli-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-core-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-core-api-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-docs-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-installation-beacon-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-jvm-services-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-0.13.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-tooling-builders-0.13.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-tooling-models-0.13.1.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-launcher-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-logging-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-messaging-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-model-core-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-model-groovy-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-native-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-persistent-cache-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-process-services-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-resources-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-runtime-api-info-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-tooling-api-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-wrapper-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-announce-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-antlr-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-build-cache-http-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-build-comparison-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-build-init-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-code-quality-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-composite-builds-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-dependency-management-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-diagnostics-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ear-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ide-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ide-native-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ide-play-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ivy-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-jacoco-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-javascript-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-groovy-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-java-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-jvm-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-native-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-scala-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-maven-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-osgi-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-base-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-jvm-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-native-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-play-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-plugin-development-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-plugin-use-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-plugins-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-publish-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-reporting-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-gcs-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-http-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-s3-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-sftp-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-scala-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-signing-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-test-kit-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-testing-base-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-testing-jvm-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-testing-native-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-tooling-api-builders-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-version-control-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-workers-4.4.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
-                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
-                </list>
-              </option>
-            </ExternalProjectBuildClasspathPojo>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
-      </map>
-    </option>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -624,31 +283,27 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/kotlin/MyWindow.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/App.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/Config.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/View.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Water.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Wall.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Steel.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Grass.kt" />
         <option value="$PROJECT_DIR$/src/main/resources/map/1.map" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.java" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/enums/Direction.kt" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/buiness/Blockable.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/buiness/Movable.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/Config.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Wall.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/GameWindow.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.kt" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="107" />
-    <option name="y" value="226" />
-    <option name="width" value="1608" />
-    <option name="height" value="1003" />
+    <option name="x" value="257" />
+    <option name="y" value="143" />
+    <option name="width" value="1244" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -656,54 +311,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TankPro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TankPro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TankPro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TankPro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TankPro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TankPro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="buiness" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TankPro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
@@ -712,44 +366,37 @@
             </path>
             <path>
               <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TankPro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="TankPro" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="map" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tanke" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="tanke" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551886127120" />
+    <property name="last_opened_file_path" value="G:/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29310346" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -778,22 +425,16 @@
   <component name="RunManager" selected="Kotlin.org.rushi.game.AppKt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MyWindowKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="tanke_main" />
@@ -804,6 +445,9 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="MyWindowKt" />
       <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="org.rushi.game.AppKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="tanke_main" />
@@ -814,28 +458,17 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="org.rushi.game.AppKt" />
       <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Kotlin.MyWindowKt" />
@@ -859,52 +492,54 @@
       <option name="presentableId" value="Default" />
       <updated>1551851371941</updated>
       <workItem from="1551851374464" duration="12150000" />
+      <workItem from="1551875647466" duration="7756000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12150000" />
+    <option name="totallyTimeSpent" value="19906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="726" y="11" width="1287" height="795" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="bottom" id="Build" weight="0.3289941" />
-      <window_info anchor="right" id="Database" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19283971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32586786" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26651737" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32938388" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20628998" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="right" id="Gradle" weight="0.32995737" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33802816" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3289941" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32938388" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.342723" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.032546785" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
@@ -917,20 +552,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shaunxiao/kotlinGameEngine/v0.0.4/f70879d58e700a59fa2d69fbe56aeaba0eaaab22/kotlinGameEngine-v0.0.4.jar!/org/itheima/kotlin/game/core/Window.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.shaunxiao/kotlinGameEngine/v0.0.4/f70879d58e700a59fa2d69fbe56aeaba0eaaab22/kotlinGameEngine-v0.0.4.jar!/org/itheima/kotlin/game/core/Window.class" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model.kt" />
     <entry file="file://$PROJECT_DIR$/src/test/MyWindow.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -948,38 +571,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/io/File.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_25/src.zip!/java/io/File.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Grass.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/Config.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/View.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Water.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Wall.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        <state relative-caret-position="261">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#30#102#0" expanded="true" />
           </folding>
@@ -988,58 +585,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Steel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Grass.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#30#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/map/1.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="e#30#140#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="232">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/enums/Direction.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="87">
           <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Water.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/buiness/Blockable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/buiness/Movable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding>
+            <element signature="e#32#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/View.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/map/1.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/Config.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Wall.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding>
+            <element signature="e#30#142#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/GameWindow.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="50" selection-start-line="50" selection-start-column="2" selection-end-line="56" selection-end-column="11" />
+        <state relative-caret-position="-337">
+          <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/org/rushi/game/model/Tank.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="77" column="13" lean-forward="true" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
           <folding>
-            <element signature="e#24#229#0" expanded="true" />
+            <element signature="e#30#140#0" expanded="true" />
           </folding>
         </state>
       </provider>
