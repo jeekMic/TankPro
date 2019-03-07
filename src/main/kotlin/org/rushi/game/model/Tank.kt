@@ -55,28 +55,35 @@ class Tank(override var x: Int, override var y: Int) :Movable{
 
         //TODO("not implemented") 监测下一步碰撞
         var collision = when {
-            block.y+block.height<y -> //如果阻挡物在运动物的上方，则不会放生碰撞
+            block.y+block.height<=y -> //如果阻挡物在运动物的上方，则不会放生碰撞
             {
                 println("1")
                 false
             }
 
-            block.y>y+height -> //如果阻挡物在运动物的下方，则不会放生碰撞
+            block.y>=y+height -> //如果阻挡物在运动物的下方，则不会放生碰撞
             {
-                println("2a")
+                println("2")
+                println( "${block.y}----${y+height}")
                 false
             }
-            block.x+block.width<x -> //如果阻挡物在运动物的左方，则不会放生碰撞
+            block.x+block.width<=x -> //如果阻挡物在运动物的左方，则不会放生碰撞
             {
                 println("3")
+                println( "${block.x+block.width}----${x}")
                 false
             }
-            block.x > x+width -> //如果阻挡物在运动物的右方，则不会放生碰撞
+            block.x >= x+width -> //如果阻挡物在运动物的右方，则不会放生碰撞
             {
                 println("4")
+                println( "${ block.x+block.width}----${x+width}")
                 false
             }
             else -> {
+                println(x)
+                println(y)
+                println(block.x)
+                println(block.y)
                 println(currentDirection)
                 true
             }
