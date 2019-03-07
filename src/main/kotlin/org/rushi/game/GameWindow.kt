@@ -56,6 +56,11 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
             KeyCode.S -> myTank.move(Direction.DOWN)
             KeyCode.A -> myTank.move(Direction.LEFT)
             KeyCode.D -> myTank.move(Direction.RIGHT)
+            KeyCode.ENTER ->{
+               val bullet= myTank.shot()
+                //拿到一个子弹，交给views
+                views.add(bullet)
+            }
             else -> println("请不要乱按")
         }
     }

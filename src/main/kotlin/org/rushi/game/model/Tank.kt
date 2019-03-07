@@ -33,6 +33,11 @@ class Tank(override var x: Int, override var y: Int) :Movable{
         if (direction==badDirection){
             return
         }
+        //点击一下方向的时候不移动只变方向
+        if (direction != this.currentDirection) {
+            this.currentDirection = direction
+            return
+        }
         this.currentDirection = direction
         // tank 坐标需要发生变化 根据方向来改变坐标
         when(currentDirection){
@@ -58,6 +63,12 @@ class Tank(override var x: Int, override var y: Int) :Movable{
             block.y+block.height<=y -> //如果阻挡物在运动物的上方，则不会放生碰撞
             {
                 println("1")
+                println(x)
+                println(y)
+                println(block.x)
+                println(block.y)
+                println(block.height)
+                println(currentDirection)
                 false
             }
 
@@ -84,6 +95,7 @@ class Tank(override var x: Int, override var y: Int) :Movable{
                 println(y)
                 println(block.x)
                 println(block.y)
+                println(block.height)
                 println(currentDirection)
                 true
             }
@@ -94,5 +106,39 @@ class Tank(override var x: Int, override var y: Int) :Movable{
     override fun notifyBlockCollision(direction: Direction?, block: Blockable?) {
         //TODO("not implemented") 接收碰撞信息
         this.badDirection = direction
+    }
+    fun shot():Bullet{
+
+        //计算坦克真实的坐标
+        return Bullet(currentDirection,{bulletWidth,bulletHeight->
+            val tankX = x
+            val tankY = y
+            val tankWidth = width
+            val tankHeight = height
+            var bulletX = 0
+            var bulletY = 0
+//            var bulletWidth = 16
+//            var bulletHeight = 32
+            when(currentDirection){
+                Direction.UP->{
+                    bulletX = tankX+(tankWidth-bulletWidth)/2
+                    bulletY = tankY - bulletHeight/2
+                }
+                Direction.DOWN->{
+                    bulletX = tankX+(tankWidth-bulletWidth)/2
+                    bulletY = tankY +tankHeight
+                }
+                Direction.LEFT->{
+                    bulletX = tankX-bulletWidth/2
+                    bulletY = tankY+(tankHeight-bulletHeight)/2
+                }
+                Direction.RIGHT->{
+                    bulletX = tankX+tankWidth
+                    bulletY = tankY+(tankHeight-bulletHeight)/2
+                }
+
+            }
+            Pair(bulletX,bulletY)
+        })
     }
 }
