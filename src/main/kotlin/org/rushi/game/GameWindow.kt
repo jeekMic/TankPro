@@ -4,18 +4,18 @@ import javafx.scene.input.KeyCode
 import javafx.scene.input.KeyEvent
 import org.itheima.kotlin.game.core.Painter
 import org.itheima.kotlin.game.core.Window
-import org.rushi.game.buiness.Blockable
-import org.rushi.game.buiness.Movable
+import org.rushi.game.buiness.*
 import org.rushi.game.enums.Direction
 import org.rushi.game.model.*
 import java.io.File
+import java.util.concurrent.CopyOnWriteArrayList
 
 
 class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height = Config.gameHeight, width = Config.gameWidth){
 
 //    var wall = Wall()
 //    var grass = Grass()
-    var views = arrayListOf<View>()
+    var views = CopyOnWriteArrayList<View>()
     // lateinit 是单例的模式，只在初始化的时候创建 如Android的onCreate方法中
     lateinit var myTank: Tank
     override fun onCreate() {
@@ -29,7 +29,11 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
         it.toCharArray().forEach {column->
 //            println(lineNum)
             when(column){
-                '砖' -> views.add(Wall(columnNum * Config.block, lineNum * Config.block))
+                '砖' ->
+                {
+                    println("${columnNum * Config.block}--${lineNum * Config.block}")
+                    views.add(Wall(columnNum * Config.block, lineNum * Config.block))
+                }
                 '铁' -> views.add(Steel(columnNum * Config.block, lineNum * Config.block))
                 '水' -> views.add(Water(columnNum * Config.block, lineNum * Config.block))
                 '草' -> views.add(Grass(columnNum * Config.block, lineNum * Config.block))
@@ -52,7 +56,7 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
         println(event.code)
         //用户操作时调用这个生命周期的方法
         when(event.code){
-            KeyCode.W -> myTank.move(Direction.UP)
+            KeyCode.W ->myTank.move(Direction.UP)
             KeyCode.S -> myTank.move(Direction.DOWN)
             KeyCode.A -> myTank.move(Direction.LEFT)
             KeyCode.D -> myTank.move(Direction.RIGHT)
@@ -66,7 +70,6 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
     }
 
     override fun onRefresh() {
-
         //耗时业务逻辑 判断运动的物体和阻塞的物体是否发生碰撞
         //1 找到运动的物体
         views.filter {it is Movable }.forEach {move->
@@ -90,6 +93,37 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
         //2 找到阻塞物体
 
         //3 遍历集合找到是否发生碰撞
+
+
+
+        //自动检测移动的物体，让他们动起来
+        views.filter { it is AutoMovable }.forEach {
+            (it as AutoMovable).autoMove()
+        }
+
+        views.filter { it is Destroyable }.forEach {
+            //判断是否碰撞到相关物体
+            if ((it as Destroyable).isDestory()){
+                views.remove(it)
+            }
+        }
+
+    //检测具备攻击能力和被攻击能力的物体之间产生碰撞
+        views.filter{it is Attack}.forEach { attack->
+            attack as Attack
+            views.filter { it is SUfferable }.forEach suffered@{ sufferable->
+                sufferable as SUfferable
+                //判断是否发生碰撞
+                if (attack.isCollosion(sufferable)){
+                    //产生碰撞
+                    attack.notifyAttack(sufferable)
+                    sufferable.notifySuffer(attack)
+                    return@suffered
+                }
+
+            }
+        }
+
 
     }
 
