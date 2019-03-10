@@ -1,5 +1,6 @@
 package org.rushi.game.model
 
+import org.itheima.kotlin.game.core.Composer
 import org.itheima.kotlin.game.core.Painter
 import org.rushi.game.Config
 import org.rushi.game.buiness.Attack
@@ -21,10 +22,14 @@ class Wall(override var x: Int, override var y: Int):Blockable,SUfferable,Destro
     override fun draw() {
         Painter.drawImage("img/wall.gif",x,y)
     }
-    override fun notifySuffer(attack: Attack) {
+    override fun notifySuffer(attack: Attack):Array<View>?{
+        println("${x}--${y}")
         println("砖墙接收到打击了")
         //自己销毁
         blood -=attack.attaclPower
+
+        Composer.play("snd/hit.wav")
+        return arrayOf(Blast(x,y))
     }
     override fun isDestory(): Boolean=blood<=0
 }

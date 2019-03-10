@@ -32,11 +32,16 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
                 '砖' ->
                 {
                     println("${columnNum * Config.block}--${lineNum * Config.block}")
-                    views.add(Wall(columnNum * Config.block, lineNum * Config.block))
+//                    if (columnNum * Config.block==64 && lineNum * Config.block==640){
+//                        views.add(Water(columnNum * Config.block, lineNum * Config.block))
+//                    }else {
+                        views.add(Wall(columnNum * Config.block, lineNum * Config.block))
+//                    }
                 }
                 '铁' -> views.add(Steel(columnNum * Config.block, lineNum * Config.block))
                 '水' -> views.add(Water(columnNum * Config.block, lineNum * Config.block))
                 '草' -> views.add(Grass(columnNum * Config.block, lineNum * Config.block))
+                '敌' -> views.add(Enemy(columnNum * Config.block, lineNum * Config.block))
             }
             columnNum ++
         }
@@ -65,7 +70,7 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
                 //拿到一个子弹，交给views
                 views.add(bullet)
             }
-            else -> println("请不要乱按")
+            else -> println("enter error")
         }
     }
 
@@ -76,9 +81,9 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
                 move as Movable
                 var badDirection:Direction? = null
                 var badBlockable:Blockable? = null
-                views.filter {mv -> mv is Blockable }.forEach blackTag@{block->
+                //注意自己不能和自己作比较
+                views.filter {mv ->( mv is Blockable) && (move != mv) }.forEach blackTag@{block->
                     block as Blockable
-//                    println("----------${block.y}----${block.height}")
                     val willCollision:Direction? =  move.willCollision(block)
                     willCollision?.let {
                         //移动发生碰撞 跳出当前循环
@@ -89,11 +94,11 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
             //找到阻塞快block 会碰撞的方向
             //通知可以移动的物体会在那个方向和那个物体碰撞
             move.notifyBlockCollision(badDirection,badBlockable)
+
         }
         //2 找到阻塞物体
 
         //3 遍历集合找到是否发生碰撞
-
 
 
         //自动检测移动的物体，让他们动起来
@@ -111,20 +116,32 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
     //检测具备攻击能力和被攻击能力的物体之间产生碰撞
         views.filter{it is Attack}.forEach { attack->
             attack as Attack
-            views.filter { it is SUfferable }.forEach suffered@{ sufferable->
+            //攻击的源不可以是发射方
+            views.filter { (it is SUfferable) and  (attack.source != it)}.forEach suffered@{ sufferable->
                 sufferable as SUfferable
                 //判断是否发生碰撞
                 if (attack.isCollosion(sufferable)){
                     //产生碰撞
                     attack.notifyAttack(sufferable)
-                    sufferable.notifySuffer(attack)
+                    val sufferview = sufferable.notifySuffer(attack)
+                    sufferview?.let {
+                        //显示碰撞的效果
+                        views.addAll(sufferview)
+                    }
                     return@suffered
                 }
 
             }
         }
 
-
+     //检测自动攻击的
+        views.filter { it is AutoShot }.forEach {
+            it as AutoShot
+            var shot = it.autoShot()
+            shot?.let{
+                views.add(shot)
+            }
+        }
     }
 
 }

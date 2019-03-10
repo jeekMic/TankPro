@@ -1,15 +1,16 @@
 package org.rushi.game.model
 
+import org.itheima.kotlin.game.core.Composer
 import org.itheima.kotlin.game.core.Painter
 import org.rushi.game.Config
-import org.rushi.game.buiness.Blockable
-import org.rushi.game.buiness.Movable
+import org.rushi.game.buiness.*
 import org.rushi.game.enums.Direction
 
 
-class Tank(override var x: Int, override var y: Int) :Movable{
+class Tank(override var x: Int, override var y: Int) :Movable,Blockable,SUfferable,Destroyable{
 
 
+    override var blood: Int = 1
     override var width: Int= Config.block
     override var height: Int = Config.block
 //    var xs: Int = this.x
@@ -29,8 +30,6 @@ class Tank(override var x: Int, override var y: Int) :Movable{
         }
     }
     fun move(direction: Direction){
-        println("${x}-----${y}")
-
         //判断是否是往要碰撞的地方走
         if (direction==badDirection){
             return
@@ -58,50 +57,14 @@ class Tank(override var x: Int, override var y: Int) :Movable{
     override fun willCollision(block: Blockable): Direction? {
         var x = this.x
         var y = this.y
-        //将要碰撞左判断
+        when(currentDirection){
+            Direction.UP -> y -=speed
+            Direction.DOWN -> y +=speed
+            Direction.LEFT -> x -=speed
+            Direction.RIGHT -> x +=speed
+        }
 
-        //TODO("not implemented") 监测下一步碰撞
-//        var collision = when {
-//            block.y+block.height<=y -> //如果阻挡物在运动物的上方，则不会放生碰撞
-//            {
-//                println("1")
-//                println(x)
-//                println(y)
-//                println(block.x)
-//                println(block.y)
-//                println(block.height)
-//                println(currentDirection)
-//                false
-//            }
-//
-//            block.y>=y+height -> //如果阻挡物在运动物的下方，则不会放生碰撞
-//            {
-//                println("2")
-//                println( "${block.y}----${y+height}")
-//                false
-//            }
-//            block.x+block.width<=x -> //如果阻挡物在运动物的左方，则不会放生碰撞
-//            {
-//                println("3")
-//                println( "${block.x+block.width}----${x}")
-//                false
-//            }
-//            block.x >= x+width -> //如果阻挡物在运动物的右方，则不会放生碰撞
-//            {
-//                println("4")
-//                println( "${ block.x+block.width}----${x+width}")
-//                false
-//            }
-//            else -> {
-//                println(x)
-//                println(y)
-//                println(block.x)
-//                println(block.y)
-//                println(block.height)
-//                println(currentDirection)
-//                true
-//            }
-//        }
+        //将要碰撞左判断
         var collision = checkColision(block.x, block.y,block.width,block.height,x,y,width,height)
         return if (collision) currentDirection else null
 
@@ -113,15 +76,13 @@ class Tank(override var x: Int, override var y: Int) :Movable{
     fun shot():Bullet{
 
         //计算坦克真实的坐标
-        return Bullet(currentDirection) { bulletWidth, bulletHeight->
+        return Bullet(this,currentDirection) { bulletWidth, bulletHeight->
             val tankX = x
             val tankY = y
             val tankWidth = width
             val tankHeight = height
             var bulletX = 0
             var bulletY = 0
-    //            var bulletWidth = 16
-    //            var bulletHeight = 32
             when(currentDirection){
                 Direction.UP->{
                     bulletX = tankX+(tankWidth-bulletWidth)/2
@@ -143,5 +104,12 @@ class Tank(override var x: Int, override var y: Int) :Movable{
             }
             Pair(bulletX,bulletY)
         }
+    }
+    override fun notifySuffer(attack: Attack): Array<View>? {
+        blood -=attack.attaclPower
+        return arrayOf(Blast(x,y))
+    }
+    override fun isDestory(): Boolean {
+        return  blood<=0
     }
 }

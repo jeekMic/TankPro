@@ -10,8 +10,7 @@ import org.rushi.game.enums.Direction
 import org.rushi.game.ext.checkColision
 
 //create 函数返回两个值
-class Bullet(override  var currentDirection:
-             Direction,create:(width:Int,height:Int)->Pair<Int,Int>) :
+class Bullet(override val source: View,override  var currentDirection: Direction, create:(width:Int,height:Int)->Pair<Int,Int> ) :
     View, AutoMovable,Destroyable,Attack
 {
     override var attaclPower: Int = 1
@@ -78,6 +77,7 @@ class Bullet(override  var currentDirection:
 
     override fun notifyAttack(sufferable: SUfferable) {
         println("子弹接收到碰撞....")
+        println("${x}--${y}")
         isDestrory = true
     }
 }
