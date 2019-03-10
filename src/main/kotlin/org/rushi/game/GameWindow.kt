@@ -49,6 +49,8 @@ class GameWindow:Window(title="标哥坦克大战",icon = "img/gamel.png",height
     }
        myTank = Tank(Config.block * 10, Config.block * 12)
         views.add(myTank)
+        //天机大本营
+        views.add(Camp(Config.gameWidth/2-Config.block, Config.gameHeight-96 ))
     }
 
     override fun onDisplay() {
